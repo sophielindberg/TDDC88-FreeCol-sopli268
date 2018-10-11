@@ -289,7 +289,7 @@ public class SoundPlayer {
             } catch (Exception e) {
                 logger.log(Level.WARNING, "Can not open SourceDataLine", e);
                 return null;
-            } //a dummy comment
+            } //a dummy comment!!!
             return line;
         }
 
