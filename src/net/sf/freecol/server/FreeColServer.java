@@ -1220,7 +1220,7 @@ public final class FreeColServer {
         for (File autosaveFile : FreeColDirectories.getAutosaveDirectory().listFiles()) {
             if (autosaveFile.getName().startsWith(prefix)) {
                 autosaveFile.delete();
-            }
+            
         }
     }
 
